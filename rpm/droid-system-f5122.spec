@@ -14,6 +14,9 @@ Requires:	droid-system-f512x
 # We do not want to install this package ever with the f5121 variant.
 Conflicts:      droid-system-f5121
 
+# So that we can have generic dependencies as well.
+Provides:       droid-system
+
 %description
 %{summary}.
 
